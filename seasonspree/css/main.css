@@ -241,6 +241,10 @@ margin-right: 10px;
 }
 
 
+.kickstarter {
+  display: none;
+}
+
 
 /* lightbox stuff */
 ul {
