@@ -1,0 +1,296 @@
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.kickstarter-banner {
+  width: 100%;
+  text-align: center;
+}
+
+.kickstarter-banner img {
+  width: 100%;
+  max-width: 960px;
+}
+
+.header {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.header img {
+ width: 100%;
+}
+
+.video-section {
+  margin-top: -4px;
+  padding-top: 40px;
+  background-color: #F6CEB1;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+
+}
+
+.video-container iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centered-copy {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #5A2A05;
+}
+
+.details-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
+  max-width: 960px;
+  background-color: #b2e7ff;
+  text-align: center;
+}
+
+.details-section-copy {
+  text-align: left;
+  width: 100%;
+  max-width: 560px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #062634;
+
+}
+
+.badge-wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.twitter-copy {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.9213px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #062634;
+}
+
+.sign-up {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #062634;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.download-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 60px;
+  text-align: center;
+  background-color: #f6d4ff;
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.9213px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3C074A;
+}
+
+
+
+.features-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 60px;
+  background-color: #d9e8ad;
+
+  color: #01240F;
+}
+
+.features-copy {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132.69%;
+  padding-left: 80px;
+}
+
+pre {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132.69%;
+  /* or 32px */
+
+
+  color: #01240F;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 132.69%;
+  /* or 32px */
+
+  color: #01240F;
+  margin-bottom: 0;
+}
+
+[type=submit]{
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+  background-color: black;
+  border: 2px solid white;
+  text-transform: uppercase;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 10px;
+}
+
+[for=tlemail]{
+  font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+
+
+color: #062634;
+margin-right: 10px;
+}
+
+[type=text]{
+  width: 250px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #062634;
+}
+
+
+.kickstarter {
+  display: none;
+}
+
+/* lightbox stuff */
+ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  background-color: white;
+  padding: 0px;
+  margin: 10px;
+}
+
+ul li img {
+  display: block;
+  width: 200px;
+}
+
+#overlay {
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+}
+
+#overlay img {
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+}
+
+#overlay #closeImg {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 1;
+}
