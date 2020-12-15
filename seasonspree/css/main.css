@@ -299,6 +299,7 @@ margin-right: 10px;
 
 .details-section-copy ul {
   list-style: disc;
+  margin-block-end: 2em;
 }
 
 .details-section-copy ul li {
