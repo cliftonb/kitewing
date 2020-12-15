@@ -297,12 +297,12 @@ margin-right: 10px;
 }
 
 
-.details-section-copy ul {
+.features-section-copy ul {
   list-style: disc;
   margin-block-end: 2em;
 }
 
-.details-section-copy ul li {
+.features-section-copy ul li {
   display: list-item;
   background-color: rgba(0,0,0,0);
   text-align: left;
