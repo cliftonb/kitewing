@@ -96,15 +96,6 @@
   padding-right: 20px!important;
 }
 
-.details-section-copy ul {
-  list-style: disc;
-}
-.details-section-copy ul li {
-  display: list-item;
-  background-color: rgba(0,0,0,0);
-  text-align: left;
-}
-
 .badge-wrapper {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -257,7 +248,7 @@ margin-right: 10px;
 
 
 /* lightbox stuff */
-ul {
+.download-section ul {
   list-style: none;
   margin: 0 auto;
   text-align: center;
@@ -265,14 +256,14 @@ ul {
   padding: 0;
 }
 
-ul li {
+.download-section ul li {
   display: inline-block;
   background-color: white;
   padding: 0px;
   margin: 10px;
 }
 
-ul li img {
+.download-section ul li img {
   display: block;
   width: 250px;
 }
@@ -303,4 +294,15 @@ ul li img {
   top: 40px;
   right: 40px;
   z-index: 1;
+}
+
+
+.details-section-copy ul {
+  list-style: disc;
+}
+
+.details-section-copy ul li {
+  display: list-item;
+  background-color: rgba(0,0,0,0);
+  text-align: left;
 }
