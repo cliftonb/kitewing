@@ -96,6 +96,15 @@
   padding-right: 20px!important;
 }
 
+.details-section-copy ul {
+  list-style: disc;
+}
+.details-section-copy ul li {
+  display: list-item;
+  background-color: rgba(0,0,0,0);
+  text-align: left;
+}
+
 .badge-wrapper {
   margin-top: 20px;
   margin-bottom: 30px;
