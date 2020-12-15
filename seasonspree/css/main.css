@@ -300,11 +300,12 @@ margin-right: 10px;
 .features-section ul {
   list-style: disc;
   margin-block-end: 2em;
-  margin-block-start: 0.75em;
+  margin-block-start: 0.25em;
 }
 
 .features-section ul li {
   display: list-item;
   background-color: rgba(0,0,0,0);
   text-align: left;
+  padding-bottom: 0.5em;
 }
